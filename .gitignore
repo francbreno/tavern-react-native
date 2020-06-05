@@ -48,8 +48,6 @@ __tests__
 .buckconfig
 .flowconfig
 .watchmanconfig
-App.js
-app.json
 babel.config.js
 metro.config.js
 *lock*
