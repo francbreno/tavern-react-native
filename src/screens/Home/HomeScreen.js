@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet } from 'react-native';
+import { Layout, Text } from '@ui-kitten/components';
 
 const styles = StyleSheet.create({
   container: {
@@ -14,9 +15,9 @@ const styles = StyleSheet.create({
 
 export default function HomeScreen() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Welcome to the Tavern</Text>
+    <Layout style={styles.container}>
+      <Text category="h1">Welcome to the Tavern</Text>
       <Text>The place where every adventure begins</Text>
-    </View>
+    </Layout>
   );
 }
