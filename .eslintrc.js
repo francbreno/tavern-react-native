@@ -19,9 +19,7 @@ module.exports = {
         'ecmaVersion': 2018,
         'sourceType': 'module'
     },
-    'plugins': [
-        'react'
-    ],
+    'plugins': ['react', 'react-hooks', 'prettier'],
     'rules': {
         'indent': [
             'error',
@@ -33,6 +31,7 @@ module.exports = {
         ],
         'quotes': ['error', 'single', { avoidEscape: true }],
         'no-empty-function': 'off',
+        'prettier/prettier': 'error',
         'semi': [
             'error',
             'always'
